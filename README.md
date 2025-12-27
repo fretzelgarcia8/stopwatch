@@ -1,4 +1,4 @@
-# ⏱️ Aesthetic Glassmorphism Stopwatch
+# Hello Kitty Glassmorphism Stopwatch
 
 A sleek, high-precision web-based stopwatch featuring a **Glassmorphism** design. This project combines a modern "frosted glass" aesthetic with a custom color palette and a playful, rounded interface.
 
@@ -57,3 +57,4 @@ git clone https://github.com/your-username/aesthetic-stopwatch.git
 This project is **not licensed** and is provided for **educational purposes only**.
 
 ---
+
