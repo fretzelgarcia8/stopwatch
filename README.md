@@ -23,7 +23,7 @@ A modern web browser (Chrome, Firefox, Edge, or Safari).
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/your-username/aesthetic-stopwatch.git
+git clone https://github.com/fretzelgarcia8/stopwatch.git
 
 ```
 
@@ -57,4 +57,5 @@ git clone https://github.com/your-username/aesthetic-stopwatch.git
 This project is **not licensed** and is provided for **educational purposes only**.
 
 ---
+
 
