@@ -1,0 +1,105 @@
+:root{
+  --bg: #fff0f6; 
+  --panel: #ffd0e8; 
+  --time: #3b0b2e; 
+  --start: #ff77b8;
+  --stop: #ff4d94;
+  --reset: #ffd6e8;
+  --outline-darken: rgba(0,0,0,0.06);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  
+
+  /* BODY BACKGROUND IMAGE */
+  background: url("images/HK.gif") no-repeat center center fixed;
+  background-size: cover;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+}
+
+.stopwatch {
+  font-family: 'Fredoka One', cursive; /* cute round font */
+  width: 360px;
+  max-width: 96vw;
+  background: rgba(255, 255, 255, 0.25); /* glass effect */
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--time);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+.display-wrap{margin-bottom:18px}
+.time{
+  font-family: 'Roboto Mono', Menlo, Monaco, monospace;
+  font-size:2.2rem;
+  background:rgba(0, 0, 0, 0.03);
+  padding:14px 18px;
+  border-radius:8px;
+  color:var(--time);
+  letter-spacing:2px;
+}
+.controls{
+  display:flex;
+  gap:12px;
+  justify-content:center;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;      /* circle button */
+  border: 2px solid var(--outline-darken);
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive; /* match card */
+  font-weight: 100;         /* bold */
+  font-size: 0.9rem;        /* slightly larger for readability */
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+.btn:active{transform:translateY(1px)}
+.btn:disabled{opacity:0.55;cursor:default;pointer-events:none}
+.btn-start{background:rgba(82, 30, 105, 0.9);border-color:rgba(248, 62, 233, 0.9);color:#f34deb}
+.btn-stop{background:rgba(141, 49, 49, 0.9);border-color:rgba(30, 79, 170, 0.9);color:#6f79d1}
+.btn-reset{background:rgba(52, 63, 124, 0.9);border-color:rgba(255, 253, 122, 0.9);color:#fff280}
+
+@media (max-width:420px){
+  .stopwatch{width:320px}
+  .time{font-size:1.8rem}
+  .btn{min-width:72px;height:40px}
+}
