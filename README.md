@@ -13,8 +13,3 @@ Behavior:
 - Clicking `Reset` sets time to zero and disables `Stop` and `Reset` until `Start` is clicked again.
 
 Open `index.html` in a browser to use.
-
-PowerShell quick open:
-```powershell
-start "" "C:\Users\Fretzel\OneDrive\Desktop\Files\FRETZEL\calculator\index.html"
-```
