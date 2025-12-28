@@ -2,7 +2,7 @@
 
 A sleek, high-precision web-based stopwatch featuring a **Glassmorphism** design. This project combines a modern "frosted glass" aesthetic with a custom color palette and a playful, rounded interface.
 
-## ✨ Features
+##  Features
 
 * **Precision Timing**: Tracks time down to the centisecond (1/100th of a second).
 * **Glassmorphism UI**: Uses `backdrop-filter` for a blurred-glass effect, soft shadows, and translucent borders.
@@ -13,7 +13,7 @@ A sleek, high-precision web-based stopwatch featuring a **Glassmorphism** design
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ git clone https://github.com/fretzelgarcia8/stopwatch.git
 
 [stopwatch.webm](https://github.com/user-attachments/assets/afb199ba-1642-4e8e-bc9c-4731a016c21e)
 
-## 🛠️ Built With
+##  Built With
 
 * **HTML5**: Semantic structure and accessibility integration.
 * **CSS3**: Custom properties (variables), Backdrop filters, Flexbox, and CSS Transitions.
@@ -44,7 +44,7 @@ git clone https://github.com/fretzelgarcia8/stopwatch.git
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 * `index.html`: Defines the stopwatch display and control buttons.
 * `style.css`: Contains the glassmorphism effects, button styling, and layout.
@@ -52,10 +52,11 @@ git clone https://github.com/fretzelgarcia8/stopwatch.git
 
 ---
 
-## 📝 License
+##  License
 
 This project is **not licensed** and is provided for **educational purposes only**.
 
 ---
+
 
 
